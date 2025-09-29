@@ -23,4 +23,6 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/get-person-by-email.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/create-person.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/update-person.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/create-deal.php';
+require_once plugin_dir_path(__FILE__)   . 'includes/update_deal.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/pipedrive-api-request.php';
+require_once plugin_dir_path(__FILE__)   . 'includes/check_redsys_payment.php';
